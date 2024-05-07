@@ -28,6 +28,8 @@ def verify(index):
         
 numbers = (4,6,7,8,9)
 
+
 result =binary_search(numbers,9)
+print(result)
 
 verify(result)
