@@ -17,10 +17,7 @@ def min_value(values):
     return min_index
     
 
-numbers = [4,5,6,87,890,2,45]
-    
-                
-        
+numbers = [4,5,6,87,890,2,45]    
 result = selection_sort(numbers)
 
 print(result)

@@ -15,3 +15,5 @@ numbers = [0,1,2,3,4,5,67,8,9,68,345,67645,344556,7677,7,8,89,9,99,76]
 result = linear_search(numbers, 99)
 
 verify(result)
+
+
