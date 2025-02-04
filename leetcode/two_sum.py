@@ -7,7 +7,7 @@ def two_sum(num, target):
         if compliment in hmap:
             return [hmap[compliment], i]
            
-        hmap[num[i]]= i
+        # hmap[num[i]]= i
         print(hmap)
     
     return []
@@ -19,8 +19,7 @@ result = two_sum(nums, target)
 
 print(result)
 
-
-print("next")
+# print("next")
 
 def two_sum(nums, target):
     num_map = {} 
@@ -28,7 +27,7 @@ def two_sum(nums, target):
         complement = target - num
         if complement in num_map:
             return [num_map[complement], i]
-        num_map[num] = i
+        # num_map[num] = i
         print(num_map)
     return []
 
