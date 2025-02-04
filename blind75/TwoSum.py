@@ -25,9 +25,9 @@ print(result)
 def two_sum(nums, target):
     num_map = {} 
     for i, num in enumerate(nums):
-        complement = target - num
-        if complement in num_map:
-            return [num_map[complement], i]
+        compliment = target - num
+        if compliment in num_map:
+            return [num_map[compliment], i]
         num_map[num] = i
         # print(num_map)
     return []
