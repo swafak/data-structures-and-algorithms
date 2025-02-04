@@ -1,3 +1,7 @@
+
+# Time Complexity: O(n) (single pass)
+# Space Complexity: O(1) (only two variables)
+
 def maxProfit(prices):
       
 
@@ -14,11 +18,20 @@ def maxProfit(prices):
     
     
 prices = [2,11,15,7]
-
 profit = maxProfit(prices)
 
 print(profit)
 
 
-# Time Complexity: O(n) (single pass)
-# Space Complexity: O(1) (only two variables)
+
+# brute force
+
+def maxProfit(self, prices):
+        
+        max_p = 0
+        
+        for i in range(len(prices)):
+            for j in range(i + 1, len(prices)):
+                profit = prices[j]- prices[i]
+                max_p = max(max_p, profit)
+        return max_p
