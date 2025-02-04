@@ -20,4 +20,3 @@ c = ["a"]
 print(groupAnagrams(a))
 print(groupAnagrams(b))
 print(groupAnagrams(c))
-

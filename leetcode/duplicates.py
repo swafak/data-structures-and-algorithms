@@ -14,3 +14,4 @@ letters =["A","B","C","D"]
 print(containsDuplicate(numbers))
 print(containsDuplicate(letters))
 print(containsDuplicate(no))
+
