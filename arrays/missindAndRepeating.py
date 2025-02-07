@@ -19,8 +19,8 @@
 #             repeating = nums[i]
 #             # output.append(repeating)
 #         else:
-#             start +=1
- 
+#  
+# start +=1
 #     return repeating,missing
     
 # nums = [2,2]   

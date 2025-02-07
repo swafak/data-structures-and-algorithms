@@ -1,5 +1,5 @@
 def arrayLeaders(nums):
-    
+
     n = len(nums)
     result = []
     
@@ -10,6 +10,7 @@ def arrayLeaders(nums):
         else:
             result.append(nums[i])
     return result
+
 
 nums =[16,17,4,3,5,2]
 arr =[10,4,2,4,1]
