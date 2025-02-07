@@ -4,7 +4,7 @@ nums = [6,3,4,55,8,1,24,4,55,2]
 nums.append(8)
 print(nums)
 
-#removes the first encounter of the item
+#removes the first encounter of the element
 nums.remove(4)
 print(nums)
 
@@ -12,13 +12,17 @@ print(nums)
 nums.pop(1)
 print(nums)
 
-#insert(index,item)
+#insert(index,element)
 nums.insert(3,100)
 print(nums)
 
 
 #add multiple elements
 nums.extend([89,90,56])
+print(nums)
+
+#update element
+nums[1] = 99
 print(nums)
 
 #sort
