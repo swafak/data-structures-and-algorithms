@@ -19,3 +19,11 @@ print(nums)
 #sort
 nums.sort()
 print(nums)
+
+#reverse
+nums.reverse()
+print(nums)
+
+
+for i in range(len(nums)):
+    print(nums[i], end=" ")
