@@ -31,6 +31,7 @@ def secondLarge(nums):
            second = largest
            largest = nums[i]
             
+            
         elif nums[i] < largest and nums[i] > second:
             second = nums[i]
     return second
